@@ -1,0 +1,22 @@
+Plans / BOQ - Bill of Quantities template
+Workbook layout (5 sheets): Summary | BOQ | Take-off | Assumptions & Verify | Norms
+
+BOQ sheet columns (fill every row, one row per measured element):
+Item No,Description,Unit,Quantity,Wastage %,Total Qty,Formula/Source,Status
+A.1,Strip footing excavation (b = 450mm, d = 600mm) - continuous 34.2m,m3,9.23,10,10.15,34.2 x 0.45 x 0.60,verified
+A.2,Blinding 15 MPa 50mm under footings,m3,1.55,10,1.71,34.2 x 0.45 x 0.05 +10%,assumed thickness
+B.1,25 MPa concrete in strip footings,m3,9.23,10,10.15,footing net volume,verified
+B.2,Y12 rebar in footings (2 Y12@200 both ways),kg,320,7,342,area 32.5m2 x 9.85 kg/m2,estimated from slab rule
+C.1,Standard bricks SANS 227 single-skin 220mm walls,No,20800,10,22880,net wall m2 x 104/m2,verified
+...
+Summary sheet: Trades, Quantity, Unit, Total
+Excavation & founding,10.15,m3
+Concrete,10.15,m3
+Reinforcing,342,kg
+Masonry,22880,No
+...
+Take-off sheet columns:
+Element,Length m,Width m,Height/Depth m,Factor,Rates (from norms),Gross,Deductions,Net,Unit,Formula
+Assumptions & Verify sheet:
+Item,Assumption/Question,Verified/To verify
+Norms sheet: paste relevant row from sa-estimation-norms including SANS citation used.
