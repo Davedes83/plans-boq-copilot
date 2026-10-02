@@ -241,13 +241,3 @@ Estimate only when necessary.
 Label every estimate clearly.
 Never present an assumption as a verified quantity.
 
-I have saved a file named B45 in the Knowledge folder. Use this price file to match the product descriptions in the price file with the corresponding descriptions in the BOQ.
-
-Once a match has been identified, populate the BOQ Excel workbook with the following additional columns:
-
-Product Code
-Product Description
-Retail Selling price (VAT Exclusive)
-Retail Selling Price (VAT Inclusive)
-
-Ensure that the product information and pricing are sourced directly from the B45 price file and accurately aligned with the corresponding BOQ item descriptions. On similar items for example, cement, user the preferred brand which you can identify on the B45 by number of units sold.
